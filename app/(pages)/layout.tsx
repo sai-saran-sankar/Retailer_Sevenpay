@@ -1,5 +1,9 @@
-import CommonLayout from '@/Components/commonLayout'
+import CommonLayout from "@/Components/commonLayout";
 
-export default function LoginLayout({ children }: { children: React.ReactNode }) {
-    return <CommonLayout>{children}</CommonLayout>
+export default function DashboardLayout({
+   children,
+}: {
+   children: React.ReactNode;
+}) {
+   return <CommonLayout>{children}</CommonLayout>;
 }
